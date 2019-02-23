@@ -1,0 +1,34 @@
+dependencies: \
+  /Users/hckcksrl/Desktop/Camera/node_modules/react-native-permissions/ios/ReactNativePermissions.m \
+  /Users/hckcksrl/Desktop/Camera/node_modules/react-native-permissions/ios/ReactNativePermissions.h \
+  /Users/hckcksrl/Desktop/Camera/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
+  /Users/hckcksrl/Desktop/Camera/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Users/hckcksrl/Desktop/Camera/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
+  /Users/hckcksrl/Desktop/Camera/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
+  /Users/hckcksrl/Desktop/Camera/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
+  /Users/hckcksrl/Desktop/Camera/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
+  /Users/hckcksrl/Desktop/Camera/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
+  /Users/hckcksrl/Desktop/Camera/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTConvert.h \
+  /Users/hckcksrl/Desktop/Camera/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAnimationType.h \
+  /Users/hckcksrl/Desktop/Camera/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBorderStyle.h \
+  /Users/hckcksrl/Desktop/Camera/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLog.h \
+  /Users/hckcksrl/Desktop/Camera/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
+  /Users/hckcksrl/Desktop/Camera/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUtils.h \
+  /Users/hckcksrl/Desktop/Camera/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTPointerEvents.h \
+  /Users/hckcksrl/Desktop/Camera/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTTextDecorationLineType.h \
+  /Users/hckcksrl/Desktop/Camera/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/hckcksrl/Desktop/Camera/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/hckcksrl/Desktop/Camera/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/hckcksrl/Desktop/Camera/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTEventDispatcher.h \
+  /Users/hckcksrl/Desktop/Camera/node_modules/react-native-permissions/ios/Permissions/RNPLocation.h \
+  /Users/hckcksrl/Desktop/Camera/node_modules/react-native-permissions/ios/RCTConvert+RNPStatus.h \
+  /Users/hckcksrl/Desktop/Camera/node_modules/react-native-permissions/ios/Permissions/RNPBluetooth.h \
+  /Users/hckcksrl/Desktop/Camera/node_modules/react-native-permissions/ios/Permissions/RNPNotification.h \
+  /Users/hckcksrl/Desktop/Camera/node_modules/react-native-permissions/ios/Permissions/RNPAudioVideo.h \
+  /Users/hckcksrl/Desktop/Camera/node_modules/react-native-permissions/ios/Permissions/RNPEvent.h \
+  /Users/hckcksrl/Desktop/Camera/node_modules/react-native-permissions/ios/Permissions/RNPPhoto.h \
+  /Users/hckcksrl/Desktop/Camera/node_modules/react-native-permissions/ios/Permissions/RNPContacts.h \
+  /Users/hckcksrl/Desktop/Camera/node_modules/react-native-permissions/ios/Permissions/RNPBackgroundRefresh.h \
+  /Users/hckcksrl/Desktop/Camera/node_modules/react-native-permissions/ios/Permissions/RNPSpeechRecognition.h \
+  /Users/hckcksrl/Desktop/Camera/node_modules/react-native-permissions/ios/Permissions/RNPMediaLibrary.h \
+  /Users/hckcksrl/Desktop/Camera/node_modules/react-native-permissions/ios/Permissions/RNPMotion.h

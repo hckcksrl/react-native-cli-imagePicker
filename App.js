@@ -14,13 +14,10 @@ import {
   View,
   TouchableOpacity,
   Image,
-  Dimensions,
-  Alert,
-  ScrollView
+  Dimensions
 } from "react-native";
-// import ImagePicker from "react-native-image-picker";
+import ImagePicker from "react-native-image-picker";
 import Permissions from "react-native-permissions";
-import ImagePicker from "react-native-image-crop-picker";
 
 const options = {
   title: "Image Picker",
@@ -34,7 +31,7 @@ export default class App extends Component {
   constructor() {
     super();
     this.state = {
-      avatarSource: [],
+      image: [],
       photoPermission: null
     };
   }
@@ -51,32 +48,18 @@ export default class App extends Component {
       }
     });
     // One Image Select
-    // ImagePicker.launchImageLibrary(options, response => {
-    //   console.log("Response = ", response);
+    ImagePicker.launchImageLibrary(options, response => {
+      if (response.didCancel) {
+        console.log("User cancelled image picker");
+      } else if (response.error) {
+        console.log("ImagePicker Error: ", response.error);
+      } else {
+        const source = { uri: response.uri };
 
-    //   if (response.didCancel) {
-    //     console.log("User cancelled image picker");
-    //   } else if (response.error) {
-    //     console.log("ImagePicker Error: ", response.error);
-    //   } else {
-    //     const source = { uri: response.uri };
-    //     console.log(response);
-    //     this.setState({
-    //       avatarSource: source
-    //     });
-    //   }
-    // });
-    const { avatarSource } = this.state;
-    //Multiple Image Select
-    ImagePicker.openPicker({
-      multiple: true,
-      includeBase64: true
-    }).then(images => {
-      images.map(image => {
         this.setState({
-          avatarSource: avatarSource.concat(image)
+          image: source
         });
-      });
+      }
     });
   };
 
@@ -90,21 +73,10 @@ export default class App extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <ScrollView style={{ flex: 1 }}>
-          {this.state.avatarSource.map(image => {
-            <Image
-              source={{
-                uri: `data:${image.mime};base64,${image.data}`
-              }}
-              style={{
-                width: width / 2,
-                height: height / 3,
-                paddingBottom: 30,
-                flex: 1
-              }}
-            />;
-          })}
-        </ScrollView>
+        <Image
+          source={this.state.image}
+          style={{ width: width / 2, height: height / 3 }}
+        />
         <TouchableOpacity
           style={{ backgroundColor: "#cccccc", width: 100, height: 20 }}
           onPress={this.imagePicker}
